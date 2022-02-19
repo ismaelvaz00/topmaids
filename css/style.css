@@ -1,0 +1,57 @@
+.alpha {
+  color: $purple;
+}
+
+.beta {
+  color: $yellow-300;
+  background-color: $indigo-900;
+}
+
+.separate {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #DBF6E9;
+  background: url('https://images.unsplash.com/photo-1587783456120-fa80c81a6c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.greycard {
+  background-color: #CCFFBD;
+}
+
+.grid {
+  margin-top: 300px;
+}
+
+.navbar-brand {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.phoneicon {
+
+  margin-top: auto;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+
+}
+
+a {
+  font-family: helvetica;
+  text-decoration: none !important;
+  display: inline-block;
+  color: #5c5c8a;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  padding-top: 25px;
+  font-weight: bold;
+  margin: auto 15px;
+}
