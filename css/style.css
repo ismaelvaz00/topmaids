@@ -1,3 +1,12 @@
+body {
+  background-color: #DBF6E9;
+  background: url('https://images.unsplash.com/photo-1587783456120-fa80c81a6c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 .alpha {
   color: $purple;
 }
@@ -14,13 +23,11 @@
   margin-right: auto;
 }
 
-body {
-  background-color: #DBF6E9;
-  background: url('https://images.unsplash.com/photo-1587783456120-fa80c81a6c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+.Cardspace{
+
+  margin-top: 3%;
+  margin-bottom: 3%;
+
 }
 
 .greycard {
@@ -54,4 +61,62 @@ a {
   padding-top: 25px;
   font-weight: bold;
   margin: auto 15px;
+}
+
+.maintxt {
+
+  background-color: #e5eff4;
+
+}
+.rightalign
+{
+
+  text-align: right;
+
+}
+.logofont{
+
+font-family: 'Nunito Sans', sans-serif;
+text-align: center;
+
+}
+
+.lead {
+  margin-bottom: 25px;
+}
+
+.backgroundtxt
+{
+
+background: url('https://images.unsplash.com/photo-1627905646269-7f034dcc5738?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed; -->
+}
+
+.clearback
+{
+
+background-color: aqua;
+
+}
+.col {
+
+    text-align: center;
+
+}
+.imgCarr {
+
+width: 80%;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.carrmargin {
+
+  margin: 0px auto;
+}
+
+.mainCard{
+
+  background-color= #6998AB;
 }
