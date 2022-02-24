@@ -1,3 +1,4 @@
+/* At the top level of your code */
 body {
   background: url('https://images.unsplash.com/photo-1587783456120-fa80c81a6c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6,16 +7,30 @@ body {
   -o-background-size: cover;
 }
 
-.navbar-brand{
-
-      height: 75px;
-
+/* sections
+ sections
+ sections */
+a {
+  font-family: helvetica;
+  text-decoration: none !important;
+  display: inline-block;
+  color: #5c5c8a;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  padding-top: 25px;
+  font-weight: bold;
+  margin: auto 15px;
 }
-.tmnav{
 
+/* hijoles */
+.navbar-brand {
+  height: 75px;
+}
+
+.tmnav {
   font-size: 45px;
-
 }
+
 .alpha {
   color: $purple;
 }
@@ -32,11 +47,9 @@ body {
   margin-right: auto;
 }
 
-.Cardspace{
-
+.Cardspace {
   margin-top: 3%;
   margin-bottom: 3%;
-
 }
 
 .greycard {
@@ -52,144 +65,116 @@ body {
 }
 
 .phoneicon {
-
   margin-top: auto;
   margin-left: 15px;
   margin-bottom: 0px;
   margin-right: 15px;
-
 }
 
-a {
-  font-family: helvetica;
-  text-decoration: none !important;
-  display: inline-block;
-  color: #5c5c8a;
-  padding: 5px 10px;
-  text-decoration: none !important;
-  padding-top: 25px;
-  font-weight: bold;
-  margin: auto 15px;
-}
-
-
-.rightalign
-{
-
+.rightalign {
   text-align: right;
-
 }
-.logofont{
 
-font-family: 'Nunito Sans', sans-serif;
-text-align: center;
-color:white;
-padding-top: 30px;
-padding-bottom: 30px;
-}
+
 
 .lead {
   margin-bottom: 25px;
 }
 
-.backgroundtxt
-{
-
-background: url('https://ismaelvaz00.github.io/topmaids/images/photo-cleaningCommercial-background-web.jpg') center center fixed;
-background-repeat: no-repeat;
-background-position: top left;
-
-
-}
-.containerMain::before{
-  background: url('https://images.unsplash.com/photo-1627905646269-7f034dcc5738?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80') center center fixed;
+.backgroundtxt {
+  background: url('https://ismaelvaz00.github.io/topmaids/images/photo-cleaningCommercial-background-web.jpg') center center fixed;
   background-repeat: no-repeat;
-  opacity: 0.50;
+  background-size: cover;
   background-position: top left;
+}
 
+
+.clearback {
+  background-color: none;
+  background-blend-mode: difference;
+}
+
+.logofont {
+  font-family:  sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: italic;
 
 }
 
-.clearback
-{
-
-background-color: gray;
-
-}
 .col {
-
-    text-align: center;
-
+  text-align: center;
 }
+
 .imgCarr {
-
-width: 80%;
-margin-top: 30px;
-margin-bottom: 30px;
-margin-left: auto;
-margin-right: auto;
-
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.carrmargin {
 
+.carrmargin {
   margin: 0px auto;
 }
 
-.mainCard{
-
-  background-color= #6998AB;
+.mainCard {
+  background-color=#6998AB;
 }
 
 .card-title {
-
   margin-top: 30px;
-  margin-bottom: 30px;
-
+  margin-bottom: 25px;
 }
 
 .card-text {
-
   margin-top: 15px;
-  margin-bottom: 25px;
-
-}
-.marginspace
-{
-
-margin-top: 35px;
-margin-bottom: 35px;
 
 }
 
-.fullmarginhrz
-
+.cardsPadding
 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: auto;
+  padding-bottom: auto;
 
-margin-top: auto;
-margin-bottom: auto;
-margin-left: 0px;
-margin-right: 0px;
-;
-
+}
+.imgpadd
+{
+  margin: 10px;
 
 }
 
-.greydiv
-{
-background-blend-mode: difference;
-background-image: linear-gradient(to right, #D9D7F1, rgb(191, 255, 240));
-padding: 8%;
-margin: 0px;
+
+.marginspace {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.fullmarginhrz {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.greydiv {
+  background-blend-mode: difference;
+  background-image: linear-gradient(to right, #D9D7F1, rgb(191, 255, 240));
+  padding: 8%;
+  margin: 0px;
 }
 
 .textleft {
-
-text-align: left;
-
+  text-align: left;
 }
-.containerMain
-{
 
-padding-left: 0px;
-padding-right: 10%;
+.containerMain {
+  padding-left: 0px;
+  padding-right: 10%;
 }
