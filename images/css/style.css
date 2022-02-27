@@ -1,0 +1,188 @@
+/* At the top level of your code */
+body {
+  background: url('https://images.unsplash.com/photo-1587783456120-fa80c81a6c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* sections
+ sections Tomkai050521!
+ sections */
+a {
+  font-family: helvetica;
+  text-decoration: none !important;
+  display: inline-block;
+  color: #5c5c8a;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  padding-top: 25px;
+  font-weight: bold;
+  margin: auto 15px;
+}
+
+.containerMain {
+  padding-left: 0px;
+  padding-right: 10%;
+}
+
+
+
+.greydiv {
+  background-blend-mode: difference;
+  background-image: linear-gradient(to right, #D9D7F1, rgb(191, 255, 240));
+  padding: 8%;
+  margin-right: 0px;
+  margin-left: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: right;
+  position: relative;
+  margin-right: auto;
+  border-radius: 3px;
+}
+
+.fullmarginhrz {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+  margin-right: 0px;
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+.logofont {
+font-family: 'Jockey One', sans-serif;  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 200;
+  font-size: 35px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+
+/* hijoles */
+.navbar-brand {
+  height: 75px;
+}
+
+.tmnav {
+  font-size: 45px;
+}
+
+.alpha {
+  color: $purple;
+}
+
+.beta {
+  color: $yellow-300;
+  background-color: $indigo-900;
+}
+
+.separate {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Cardspace {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.greycard {
+  background-color: #CCFFBD;
+}
+
+.grid {
+  margin-top: 300px;
+}
+
+.navbar-brand {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.phoneicon {
+  margin-top: auto;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.lead {
+  margin-bottom: 25px;
+}
+
+.backgroundtxt {
+  background: url('https://ismaelvaz00.github.io/topmaids/images/photo-cleaningCommercial-background-web.jpg') center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+
+
+.clearback {
+  background-color: none;
+  background-blend-mode: difference;
+}
+
+.col {
+  text-align: center;
+}
+
+.imgCarr {
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carrmargin {
+  margin: 0px auto;
+}
+
+.carousel-inner {
+  border-radius: 5px;
+}
+
+.mainCard {
+  background-color=#6998AB;
+}
+
+.card-title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.card-text {
+  margin-top: 15px;
+}
+
+.cardsPadding {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.imgpadd {
+  margin: 10px;
+}
+
+.marginspace {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.textleft {
+  text-align: left;
+}
