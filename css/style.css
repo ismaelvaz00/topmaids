@@ -2,11 +2,10 @@
 
 header {
   /* background-color: red !important; */
-  font-weight: 100;
-  justify-content:  flex-end;
-  text-decoration: none;
-  list-style-type: none;
-  height: 50%;
+  
+  height: 50% !important;
+
+
   /* width: 50%; */
   align-items:  center !important;
 }
@@ -15,7 +14,7 @@ header {
 
 span {
 display: inline-flex !important;
-padding: 15px 65px !important;
+padding: 8px 3px !important;
 font-size: 22px !important;
 align-items: center !important;
 text-align: center !important;
@@ -26,7 +25,7 @@ margin: 0px 0% !important;
 }
 img {
 
-height: 27px !important;
+height: 22px !important;
 
 }
 .menu {
@@ -35,15 +34,20 @@ height: 27px !important;
   display: flex !important;
   justify-content: space-between !important;
   /* flex-direction: column !important; */
-  font-size: 14px !important;
+  font-size: 12px !important;
   vertical-align: text-bottom !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+
 }
 
 .links{
-  /* flex-flow:  column !important; */
+  flex-flow:  row !important;
   text-align:center !important;
   justify-content: center !important;
   flex-wrap: wrap !important;
+  padding: 5px 33px !important;
+
   /* padding: 5px 33.3%; */
 
 
