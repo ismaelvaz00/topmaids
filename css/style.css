@@ -2,9 +2,12 @@
 
 header {
   /* background-color: red !important; */
-  
+  font-weight: 100;
+  justify-content:  flex-end;
+  text-decoration: none;
+  list-style-type: none;
   height: 50% !important;
-
+  font-weight: 50;
 
   /* width: 50%; */
   align-items:  center !important;
